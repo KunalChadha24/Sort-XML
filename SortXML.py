@@ -23,6 +23,11 @@ element_priority_keywords_map = {
     "TransRouting": ["profileName"], # TransRouting in ASBC-APP and supported vnfType
     "ccsSettings": ["app_type"], # ccsSettings in ASBC-APP
     "domainBasedRealmSetting": ["homeDomain"], # domainBasedRealmSetting in IMC-APP
+    "perfMonObjectDef": ["type"],
+    #LIXP
+    "LiXpErr2CauseCodeConfig": ["error_code"],
+    "LiXpTemplateConfig": ["service_name"],
+
     # Add more sub-element specific priority keywords as needed
     # Example: "SubElementName": ["priority1", "priority2", ...]
 }
